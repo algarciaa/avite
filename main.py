@@ -54,5 +54,5 @@ def main():
     promedio, aprobados, reprobados = analizar_resultados(calificaciones)
     mostrar_resumen(promedio, aprobados, reprobados)
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
